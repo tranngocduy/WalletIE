@@ -1,15 +1,10 @@
 import React from 'react';
-import { View } from 'react-native';
 
-import Intro from '@app-component/Intro';
+import AppNavigator from './route';
 
 const App = () => {
 
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Intro />
-    </View>
-  )
+  return <AppNavigator />;
 
 }
 

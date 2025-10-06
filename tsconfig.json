@@ -1,6 +1,6 @@
 {
   "extends": "@react-native/typescript-config",
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.js", "**/*.jsx", "**/*.tsx", "**/*.tsx"],
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
